@@ -1,0 +1,6 @@
+/etc/nginx/sites-available/lahwiki.conf
+/etc/hostname
+/etc/fstab
+/usr/local/bin
+/opt/lahbkp
+/var/spool/cron
