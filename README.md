@@ -31,10 +31,6 @@ At first run the script asks for bot token or mobile number. Enter mobile associ
 
 Progress would be slow.. Finally in channel would be appeared some posts with attached volumes of backups archive.
 
-<<<<<<< HEAD
-6. If everything is OK then set cron task:
-=======
 6. If everything is OK - set cron task:
->>>>>>> c25fd82cc9fe3a426baef66684fab91ea8a63263
 
    0 0 1 * * /opt/lahbkp/lahbkp.sh
