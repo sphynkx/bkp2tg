@@ -18,6 +18,7 @@ php /var/www/wiki/maintenance/dumpBackup.php --full --quiet > $SYSBKPDIR/lah_ful
 
 ## 3. Dump LAHwiki DB
 mysqldump lah_wiki -uroot > $SYSBKPDIR/lah_wiki.sql
+mysqldump lah_wiki_en -uroot > $SYSBKPDIR/lah_wiki_en.sql
 
 ## 4. Archive all and split by volumes
 tar chjf $TOUPLOAD/$NOW.tar.bz2 /var/www/wiki
