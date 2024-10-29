@@ -9,10 +9,10 @@
 /root/.mysql_history
 /usr/local/bin
 /usr/local/etc
+/usr/share/mediawiki/wiki/extensions
+/usr/share/mediawiki/skins
 /usr/share/mediawiki/LocalSettings.php
 /usr/share/mediawiki/LocalSettings_en.php
 /usr/share/phpldapadmin/templates/creation/veda.xml
 /var/spool/cron
 /var/www/ssp/conf/config.inc.php
-/var/www/wiki/extensions
-/var/www/wiki/skins
