@@ -1,7 +1,8 @@
-Snippet for backup system that collect some necessary dirs and files in system, creates dump of mediawiki's DB, extract one page from it, something else. All collected files are archiving. Archive splits by 500Mb-volumes and sends to Telegram channel to store.
+Scripts for backup system that collect some necessary dirs and files in system, creates dump of mediawiki's DBs, extracts some page from it, dump ldap sirectory, something else. All collected files are archiving. Archive splits by 500Mb-volumes and sends to Telegram channel to store.
 
 Files:
 * config.ini - config for connection to Telegram
+* excludes.list - list of paths to necessary files and directories
 * files.list - list of paths to necessary files and directories
 * lahbkp.sh - backuper script
 * pages.list - Name of wikipage that need to extract as single text file
@@ -27,7 +28,7 @@ Files:
    ./sendtotg.py -t "Hello"
 At first run the script asks for bot token or mobile number. Enter mobile associated with your Telegram account (bots cannot use some necessary functions of Telegram API). Check message in Telegram service bot with 5-digital code. Enter this code. Now the message would be appear in channel.
 
-6. Edit files/directory list (files.list) as you need and run backuper:
+6. Edit files/directory lists (excludes.list, files.list and pages.list) as you need and run backuper:
 
    ./lahbkp.sh
 
